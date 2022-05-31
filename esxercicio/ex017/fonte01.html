@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap');
+        body{
+            font-family:'work sans', Arial, Helvetica, sans-serif;
+            /*medidas absolutas
+            cm,mm,in(polegada),px,pt,pc
+             medidas relativas
+             em,ex,rem,vw,vh (usar px,em)
+             16px geralmente é = a 1em
+             weight(peso), width(largura), height(altura)
+            font-size:16px;
+            font-weight: normal;
+            font-style: italic;
+            text-decoration: underline;
+            lighter, normal, bold, bolder(100 aten 900)*/
+        }
+        H1{
+           /* font-family: 'work sans'sans-serif;
+            font-weight:bolder;
+            font-size: 3em;
+            font-style: italic;*/
+
+            /* font-style ->  font-weight ->  font-size ->  font-family*/
+            font:italic bolder 3em 'work sans',sans-serif;
+        }
+        h2{
+            font: bolder 2em 'work sans',sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando fontes em CSS</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni iste consequuntur aliquam magnam illum, dignissimos veniam consequatur voluptates nemo exercitationem quo beatae sequi expedita nesciunt, eaque est nam perspiciatis inventore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem debitis cum nulla officiis id quisquam veniam autem eum quasi delectus, at sapiente natus vero odio consequatur, minus omnis? Quam, atque!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat non natus alias itaque! Perspiciatis natus similique ullam totam quisquam expedita quos ipsa esse qui! Commodi molestias harum iure id repellendus?</p>
+    <h2>subtitulo do exercissio</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A obcaecati ratione molestiae, culpa eaque totam animi, beatae perferendis corporis sequi ducimus quibusdam voluptatum iusto veritatis inventore saepe reprehenderit aperiam aliquam!</p>
+</body>
+   
+</html>
